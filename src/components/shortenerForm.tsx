@@ -57,8 +57,8 @@ export default function ShortenerForm (){
                         Сократить
                 </button>
             </div> 
-            <div
-                onClick={()=>{navigator.clipboard.writeText(shortURL); alert("Ссылка скопирована")}}
+            <a
+                href={shortUR}
                 className='block py-3 text-indigo-900 hover:text-indigo-800 underline decoration-dashed underline-offset-4 cursor-pointer decoration-1'>
                 {shortURL}
             </div>
