@@ -16,9 +16,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="container mx-auto my-10 min-h-screen mt-auto">
+        <main className="container mx-auto py-10 min-h-screen ">
           {children}
-          <a href="https://github.com/tusk-sm/url_shortener">github</a>
+          <a 
+            className="mt-auto text-indigo-900 hover:text-indigo-800 underline decoration-dashed underline-offset-4 cursor-pointer decoration-1" 
+            href="https://github.com/tusk-sm/url_shortener">
+              GitHub
+          </a>
         </main>
       </body>
     </html>
