@@ -19,7 +19,7 @@ export default function RootLayout({
         <main className="container mx-auto py-10 min-h-screen ">
           {children}
           <a 
-            className="mt-auto text-indigo-900 hover:text-indigo-800 underline decoration-dashed underline-offset-4 cursor-pointer decoration-1" 
+            className="mt-10 text-indigo-900 hover:text-indigo-800 underline decoration-dashed underline-offset-4 cursor-pointer decoration-1" 
             href="https://github.com/tusk-sm/url_shortener">
               GitHub
           </a>
