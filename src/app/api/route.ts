@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { saveURL } from '@/lib/redis';
-import { HOST } from '../../../config';
+import { HOST } from '@/config';
 
 export async function POST(request: Request) {
     const { url }  = await request.json()
