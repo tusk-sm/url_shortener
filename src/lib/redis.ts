@@ -1,6 +1,6 @@
 import { createClient } from 'redis'
 import randomString from './randomString';
-import { REDIS_CONFIG } from '../../config';
+import { REDIS_CONFIG } from '@/config';
 
 const client = createClient(REDIS_CONFIG);
 
