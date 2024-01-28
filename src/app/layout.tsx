@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="container mx-auto py-10 min-h-screen ">
+        <main className="container mx-auto py-10 min-h-screen flex flex-col items-center">
           {children}
           <a 
             className="inline-block mt-28  text-indigo-900 hover:text-indigo-800 underline decoration-dashed underline-offset-4 cursor-pointer decoration-1" 

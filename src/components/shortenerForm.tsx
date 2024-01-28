@@ -43,7 +43,7 @@ export default function ShortenerForm (){
 
     return(
         <form onSubmit={_onSubmit}>  
-            <div className="flex">                     
+            <div className="flex flex-col">                     
                 <input                  
                     type="text" 
                     onChange={_onChange}
@@ -53,7 +53,7 @@ export default function ShortenerForm (){
                 <button 
                     type="submit" 
                     disabled={_btnDisabled()}
-                    className="px-3 py-1 bg-indigo-900 mx-2 text-white hover:bg-indigo-900 disabled:bg-indigo-300">
+                    className="px-3 py-1 bg-indigo-900 my-2 text-white hover:bg-indigo-900 disabled:bg-indigo-300">
                         Сократить
                 </button>
             </div> 
